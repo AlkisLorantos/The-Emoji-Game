@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:the_emoji_game/views/auth/login_view.dart';
+import 'package:the_emoji_game/views/auth/sign_up_view.dart';
 import 'package:the_emoji_game/views/home_view.dart';
 
 void main() {
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeView(),
+      home: SignUpView(),
     );
   }
 }
