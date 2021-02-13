@@ -10,30 +10,18 @@ class LoginView extends StatefulWidget {
 class _LoginViewState extends State<LoginView> {
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
         title: Text("Sign In"),
       ),
-      body: SafeArea(
-        child: SizedBox(
-          width: double.infinity,
-          child: Column(
-            children: [
-              Text(
-                "Welcome Back",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: getProportionateScreenWidth(28),
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Text(
-                "Sign in with your email and password \nor continue with social media",
-                textAlign: TextAlign.center,
-              ),
-            ],
+      body: Column(
+        children: <Widget>[
+          Text(
+            "LOGIN",
+            style: TextStyle(fontWeight: FontWeight.bold),
           ),
-        ),
+        ],
       ),
     );
   }
@@ -59,7 +47,7 @@ class _LoginFormState extends State<LoginForm> {
           Row(
             children: [
               Icon(
-                Icons.error_outline,
+                Icons.error_outline_sharp,
                 color: Colors.red,
                 size: getProportionateScreenWidth(14),
               ), 
