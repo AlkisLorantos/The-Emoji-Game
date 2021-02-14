@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668817270728",
+    "project_id": "the-emoji-game-804e7",
+    "storage_bucket": "the-emoji-game-804e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668817270728:android:6f17b826a12751db1782fd",
+        "android_client_info": {
+          "package_name": "com.lorantos.the_emoji_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668817270728-9avtbaug5gvumps0u92rmvn596lf6gt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuiz2_MGr89OJMx7ODuRo1_od5wQqk0T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668817270728-9avtbaug5gvumps0u92rmvn596lf6gt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
