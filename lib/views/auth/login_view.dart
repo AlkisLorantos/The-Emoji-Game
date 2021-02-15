@@ -8,7 +8,6 @@ class LoginView extends StatefulWidget {
 }
 
 class _LoginViewState extends State<LoginView> {
-  Size size = MediaQuery.of(context).size;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
